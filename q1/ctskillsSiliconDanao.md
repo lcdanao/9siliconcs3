@@ -1,8 +1,8 @@
 # Computational Thinking Exercise
 ## [Smart School Canteen Queue OR Smart Vending Machine]
-**Name:** Leanne C. Danao
-**Section:** Silicon
-**Last Name:** Danao
+**Name:** Leanne C. Danao <br>
+**Section:** Silicon <br>
+**Last Name:** Danao <br>
 **Date:** August 17, 2026
 ---
 ## Step 1: Identify the Big Problem
@@ -21,10 +21,10 @@ The school canteen has long queues during lunch because ordering, payment, and m
 ---
 ## Step 3: Apply Computational Thinking Skills
 
-| Students take too long to decide what to order | Decomposition | Divide the menu into categories and display food, prices, and availability clearly. |
-| Cashiers manually calculate totals price and give change. | Algorithm Design | Create a program that calculates the total cost and automatically determines the customer's change. |
-| Staff have difficulty tracking food supplies. | Pattern Recognition | Record sales and identify which food items are frequently sold or running low. |
-| Long queues occur during lunch. | Abstraction | Focus on the important information: food selected, quantity, price, payment, and available stock. |
+| Students take too long to decide what to order | Decomposition | Divide the menu into categories and display food, prices, and availability clearly. | <br>
+| Cashiers manually calculate totals price and give change. | Algorithm Design | Create a program that calculates the total cost and automatically determines the customer's change. | <br>
+| Staff have difficulty tracking food supplies. | Pattern Recognition | Record sales and identify which food items are frequently sold or running low. | <br>
+| Long queues occur during lunch. | Abstraction | Focus on the important information: food selected, quantity, price, payment, and available stock. | <br>
 
 ---
 ## Step 4: Algorithmic Solution
@@ -39,9 +39,9 @@ Display available food items, prices, and stock
 Student selects food item
 Student enters quantity
 
-IF stock is sufficient THEN
-    Update food stock
-    Display total amount
+IF stock is sufficient THEN <br>
+    Update food stock <br>
+    Display total amount <br>
     Receive payment
 
     IF payment >= total THEN
@@ -49,7 +49,7 @@ IF stock is sufficient THEN
         Display change
         Confirm order
     ELSE 
-        Display "Insufficient payment"
+        Display "Insufficient payment" 
     END IF
 
 ELSE
