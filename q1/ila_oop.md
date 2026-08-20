@@ -24,8 +24,8 @@ class DrinkProduct:
 def product_info_test(product_object):
     print(product_object.display_info())
 
-product_info_test(FoodProduct())   #Outputs: Food product: Canned Goods
-product_info_test(DrinkProduct())  #Outputs: Drink product: Soft Drink
+product_info_test(FoodProduct())   #Output: Food product: Canned Goods
+product_info_test(DrinkProduct())  #Output: Drink product: Soft Drink
 ```
 
 ## Reflection
