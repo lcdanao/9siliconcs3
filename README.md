@@ -8,5 +8,6 @@
 # Quarter 1
 ## Activities
 ### Computational Thinking Skills
-[View my Computational Thinking Exercise](q1/ctskillsSiliconDanao.md)<br>
+[View my Computational Thinking Exercise](q1/ctskillsSiliconDanao.md)
+### Chinese Zodiac 
 [View my Chinese Zodiac Activity](q1/zodiacSiliconDanao.py)
