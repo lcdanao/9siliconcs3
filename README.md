@@ -9,3 +9,4 @@
 ## Activities
 ### Computational Thinking Skills
 [View my Computational Thinking Exercise](q1/ctskillsSiliconDanao.md)
+[View my Chinese Zodiac Activity](q1/zodiacSiliconDanao.py)
