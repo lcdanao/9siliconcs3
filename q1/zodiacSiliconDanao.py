@@ -10,20 +10,9 @@ if birth_year < 1900:
 
 #d. Otherwise determine the chinese zodiac sign based on the following starting from 1900. 
 else:
-    zodiacsigns = [
-    "Rat (鼠 / Shǔ)",
-    "Ox (牛 / Niú)",
-    "Tiger (虎 / Hǔ)",
-    "Rabbit (兔 / Tù)",
-    "Dragon (龙 / Lóng)",
-    "Snake (蛇 / Shé)",
-    "Horse (马 / Mǎ)",
-    "Goat (羊 / Yáng)",
-    "Monkey (猴 / Hóu)",
-    "Rooster (鸡 / Jī)",
-    "Dog (狗 / Gǒu)",
-    "Pig (猪 / Zhū)"
-    ]
+    zodiacsigns = [ "Rat (鼠 / Shǔ)", "Ox (牛 / Niú)", "Tiger (虎 / Hǔ)", "Rabbit (兔 / Tù)", 
+    "Dragon (龙 / Lóng)", "Snake (蛇 / Shé)", "Horse (马 / Mǎ)", "Goat (羊 / Yáng)", 
+    "Monkey (猴 / Hóu)", "Rooster (鸡 / Jī)", "Dog (狗 / Gǒu)", "Pig (猪 / Zhū)"]
 
 #e. CONSIDER only the year of birth.
 index = (birth_year - 1900) % 12
