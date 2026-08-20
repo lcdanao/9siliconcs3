@@ -8,7 +8,7 @@
 ## Step 1: Identify the Big Problem
 ### Main Problem
 
-The school canteen has long queues during lunch because ordering, payment, and monitoring food supplies are slow and inefficient. This affects the school by
+The school canteen has long queues during lunch because ordering, payment, and monitoring food supplies are slow and inefficient. This affects the school by causing delays, reducing students’ lunch time, and making the canteen less efficient and organized.
 
 ---
 ## Step 2: Identify the Sub-Problems
