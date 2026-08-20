@@ -4,6 +4,7 @@
 **Section:** Silicon <br>
 **Last Name:** Danao <br>
 **Date:** August 17, 2026
+
 ---
 ## Step 1: Identify the Big Problem
 ### Main Problem
@@ -39,24 +40,26 @@ Display available food items, prices, and stock
 Student selects food item
 Student enters quantity
 
-IF stock is sufficient THEN <br>
-    Update food stock <br>
-    Display total amount <br>
+Calculate total = price × quantity
+
+IF stock is sufficient THEN
+    Update food stock
+    Display total amount
     Receive payment
 
     IF payment >= total THEN
         Calculate change = payment - total
         Display change
         Confirm order
-    ELSE 
-        Display "Insufficient payment" 
-    END IF
+    ELSE
+        Display "Insufficient payment"
+    ENDIF
 
 ELSE
     Display "Item is out of stock"
-END IF
+ENDIF
 
-Dislay updated food availability
+Display updated food availability
 
 END
 ---
