@@ -1,7 +1,7 @@
 # SG4 - Understanding Classes and Objects
 
 ## Class Name: Student
-## Class Description: This class represents an individual enrolled at the school. It manages their personal details and enrollemnt status within the school database.
+## Class Description: This class represents an individual enrolled at the school. It manages their personal details and enrollment status within the school database.
 ## Properties
 | Property | Data Type | Description |
 |---|---|---|
@@ -12,9 +12,9 @@
 ## Methods
 | Method | Description |
 |---|---|
-| | |
-| | |
-| | |
+| displayInfo() | Displays the student's name, ID number, grade level, and enrollment status. |
+| enrollStudent() | Changes the student's enrollment status to enrolled. |
+| changeGradeLevel(int: newGrade) | Changes the student's grade level to the specified grade. |
 ## Class Diagram
 ![Class Diagram](images/classDiagram.png)
 ## Design Explanation
