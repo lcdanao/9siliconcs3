@@ -16,7 +16,7 @@
 | enrollStudent() | Changes the student's enrollment status to enrolled |
 | changeGradeLevel(int: newGrade) | Changes the student's grade level to the specified grade |
 ## Class Diagram
-![Class Diagram](classDiagram.png)
+![Class Diagram](images/classDiagram.png)
 ## Design Explanation
 ### Why did you choose this class?
 I chose this class because I wanted the context to be related to school, which is something I am familiar with. This made it easier for me to think of realistic properties and methods based on my own experiences as a student. I also thought that a Student class would be simple to understand while still giving me enough features to demonstrate how a class works.

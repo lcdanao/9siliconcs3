@@ -68,4 +68,4 @@ print(f"Your Chinese Zodiac Sign is: {zodiacsigns[index]}")
 
 ---
 # Documentation
-![Documentation](Documentation.png)
+![Documentation](images/Documentation.png)
