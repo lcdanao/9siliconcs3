@@ -13,9 +13,7 @@ No major changes were needed from my original design.
 | enrolled | boolean | Private | The system must check criteria (e.g., paid tuition or complete clearance) before enrollment status can change. |
 ## Updated UML Class Diagram
 ![Class Diagram](images/classDiagramSG5.png)
-
 ## Python Implementation
-
 [View Python Source](classImplementation.py)
 ## Test Run
 ![Test Run](images/classTestRun.png)
