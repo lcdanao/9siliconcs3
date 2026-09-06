@@ -1,7 +1,7 @@
 # Class Attributes and Methods
 ## Previous Design
 Link to my previous activity:
-[classObjectUML.md](q1/classObjectUML.md)
+[classObjectUML.md](classObjectUML.md)
 ## Design Revision
 No major changes were needed from my original design.
 ## Visibility Decisions
