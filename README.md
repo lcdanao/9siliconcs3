@@ -16,3 +16,4 @@
 [View my ILA 3-1: Applying the Four Pillars of OOP](q1/ila_oop.md)
 ### Understanding Classes and Objects
 [View my OOP Seed System](q1/classObjectUML.md)
+[View My OOP Seed System - Part II](q1/classAttributesMethods.md)
