@@ -68,17 +68,17 @@ if __name__ == "__main__":
     student2 = Student(name="Kim Juhoon", idNumber=8182025, gradeLevel=11, enrolled=True)
 
     print("--- BEFORE ---")
-    print("Object 1 initial state:")
+    print("Object 1:")
     student1.displayinfo()
-    print("\nObject 2 initial state:")
+    print("Object 2:")
     student2.displayinfo()
 
     print("\nPerforming action on Object 1...")
     student1.changeGradeLevel(11) 
 
     print("\n--- AFTER ---")
-    print("Object 1 updated state:")
+    print("Object 1:")
     student1.displayinfo()
-    print("\nObject 2 unchanged state:")
+    print("Object 2:")
     student2.displayinfo()
 
