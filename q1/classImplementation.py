@@ -1,8 +1,8 @@
 class Student:
     def __init__(self, name, idNumber, gradeLevel, enrolled):
         # ATTRIBUTES 
-        self.name = name # + name
-        self.gradeLevel = gradeLevel # + gradeLevel
+        self.name = name # + name (Public)
+        self.gradeLevel = gradeLevel # + gradeLevel (Public)
         self.__idNumber = idNumber # - idNumber (Private)
         self.__enrolled = enrolled # - enrolled (Private)
 
