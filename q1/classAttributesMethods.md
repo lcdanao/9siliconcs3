@@ -14,7 +14,7 @@ No major changes were needed from my original design.
 ## Updated UML Class Diagram
 ![Class Diagram](images/classDiagramSG5.png)
 ## Python Implementation
-# [View Python Source](classImplementation.py)
+### [View Python Source](classImplementation.py)
 ## Test Run
 ![Test Run](images/TestRun.png)
 ## Object Diagram
