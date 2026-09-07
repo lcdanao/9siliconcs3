@@ -7,7 +7,7 @@ No major changes were needed from my original design.
 ## Visibility Decisions
 | Attribute | Data Type | Visibility | Reason |
 |---|---|---|---|
-| name | string | Public | It is easy to view and change directly because it is safe and used often. |
+| name | string | Public | Easy to view and change directly because it is safe and used often. |
 | idNumber | int | Private | A sensitive identifier that should remain private to prevent accidental modification. |
 | gradeLevel | int | Public | It is commonly updated and read by external classes, such as class lists. |
 | enrolled | boolean | Private | The system must check criteria (e.g., paid tuition or complete clearance) before enrollment status can change. |
