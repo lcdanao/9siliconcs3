@@ -1,12 +1,12 @@
 class ReportCard:
-    def __init__(self, name, finalGWA, gradeLevel):
+    def __init__(self, quarter, finalGWA, gradeLevel):
         # ATTRIBUTES
-        self.name = name # + name (Public)
+        self.quarter = quarter # + quarter (Public)
         self.finalGWA = finalGWA # + finalGWA (Public)
         self.gradeLevel = gradeLevel # + gradeLevel (Public)
     # METHODS
     def displayReportCard(self):
-        print(f"Report Card Name: {self.name} | Final GWA: {self.finalGWA}")
+        print(f"Report Card Quarter: {self.quarter} | Final GWA: {self.finalGWA}")
 
 class Student:
     def __init__(self, name, idNumber, gradeLevel, enrolled):
@@ -42,10 +42,10 @@ class Student:
     
 print("--- BEFORE RELATIONSHIP ---")
 student1 = Student("Lee Wonhee", 3252024, 12, True)
-card1 = ReportCard("1st Quarter", 94.0, 12)
-card2 = ReportCard("2nd Quarter", 96.2, 12)
-card3 = ReportCard("3rd Quarter", 95.8, 12)
-card4 = ReportCard("4th Quarter", 97.5, 12)
+card1 = ReportCard("1st", 94.0, 12)
+card2 = ReportCard("2nd", 96.2, 12)
+card3 = ReportCard("3rd", 95.8, 12)
+card4 = ReportCard("4th", 97.5, 12)
 
 student1.displayInfo()
 print(f"Available Report Cards to link: {len([card1, card2, card3, card4])}")
@@ -54,13 +54,13 @@ print(f"Student's current linked Report Card count: {len(student1.reportCards)}"
 print("\n--- BUILDING RELATIONSHIP ---")
 print("Adding related objects...")
 student1.add_report_card(card1)
-print(f"Successfully linked: {card1.name}")
+print(f"Successfully linked: {card1.quarter}")
 student1.add_report_card(card2)
-print(f"Successfully linked: {card2.name}")
+print(f"Successfully linked: {card2.quarter}")
 student1.add_report_card(card3)
-print(f"Successfully linked: {card3.name}")
+print(f"Successfully linked: {card3.quarter}")
 student1.add_report_card(card4)
-print(f"Successfully linked: {card4.name}")
+print(f"Successfully linked: {card4.quarter}")
 
 print("\n--- AFTER RELATIONSHIP ---")
 student1.displayInfo()
