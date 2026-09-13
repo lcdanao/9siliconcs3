@@ -16,7 +16,7 @@ No major changes were needed from my original design.
 ## Python Implementation
 ### [View Python Source](classImplementation.py)
 ## Test Run
-![Test Run](images/TestRun.png)
+![Test Run](images/classTestRun.png)
 ## Object Diagram
 ![Object Diagram](images/objectDiagram.png)
 ## Analysis

@@ -16,7 +16,6 @@ Multiplicity: Student 1 ───────── 0..* ReportCard<br>
 Explanation: One Student can have many ReportCards accumulated throughout their academic life to track their grades (e.g., one for each quarter across multiple years). Conversely, each individual ReportCard is unique and can only belong to one specific student to prevent grading mix-ups.
 ## UML Class Relationship Diagram
 ![Class Relationship Diagram](images/classRelationshipDiagram.png)
-## Python Implementation
 [View Python Source](classRelationships.py)
 ## Test Run
 ![Relationship Test Run](images/relationshipTestRun.png)
