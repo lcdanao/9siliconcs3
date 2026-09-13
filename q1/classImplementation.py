@@ -35,16 +35,16 @@ if __name__ == "__main__":
 
     print("--- BEFORE ---")
     print("Object 1:")
-    student1.displayinfo()
+    student1.displayInfo()
     print("Object 2:")
-    student2.displayinfo()
+    student2.displayInfo()
 
     print("\nPerforming action on Object 1...")
     student1.changeGradeLevel(11) 
 
     print("\n--- AFTER ---")
     print("Object 1:")
-    student1.displayinfo()
+    student1.displayInfo()
     print("Object 2:")
-    student2.displayinfo()
+    student2.displayInfo()
 
