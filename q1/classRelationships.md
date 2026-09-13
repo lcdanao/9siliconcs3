@@ -1,7 +1,7 @@
 # Class Relationships: Association and Multiplicity
 ## Previous Work
-[Part I - Classes and Objects](q1/classObjectUML.md)<br>
-[Part II - Class Attributes and Methods](q1/classAttributesMethods.md)
+[Part I - Classes and Objects](classObjectUML.md)<br>
+[Part II - Class Attributes and Methods](classAttributesMethods.md)
 ## Existing Class
 Class: Student<br>
 Description: This class represents an individual enrolled at the school. The displayInfo() method outputs student details (name, gradeLevel, idNumber, enrolled) with their grades, while enrollStudent() and changeGradeLevel() ensure the report card matches their current academic status.
@@ -17,7 +17,7 @@ Explanation: One Student can have many ReportCards accumulated throughout their 
 ## UML Class Relationship Diagram
 ![Class Relationship Diagram](images/classRelationshipDiagram.png)
 ## Python Implementation
-[View Python Source](q1/classRelationships.py)
+[View Python Source](classRelationships.py)
 ## Test Run
 ![Relationship Test Run](images/relationshipTestRun.png)
 ## Object Relationship Diagram
