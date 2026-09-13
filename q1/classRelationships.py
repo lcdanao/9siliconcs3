@@ -47,11 +47,11 @@ card2 = ReportCard("2nd Quarter", 96.2, 12)
 card3 = ReportCard("3rd Quarter", 95.8, 12)
 
 student1.displayInfo()
-print(f"Available report cards to link: {len([card1, card2, card3])} records pending assignment.")
-print(f"Student's current linked report card count: {len(student1.reportCards)}")
+print(f"Available Report Cards to link: {len([card1, card2, card3])}")
+print(f"Student's current linked Report Card count: {len(student1.reportCards)}")
 
 print("\n--- BUILDING RELATIONSHIP ---")
-print("Adding/assigning related objects...")
+print("Adding related objects...")
 student1.add_report_card(card1)
 print(f"Successfully linked: {card1.name}")
 student1.add_report_card(card2)
@@ -61,7 +61,7 @@ print(f"Successfully linked: {card3.name}")
 
 print("\n--- AFTER RELATIONSHIP ---")
 student1.displayInfo()
-print(f"Student's current linked report card count: {len(student1.reportCards)}")
+print(f"Student's current linked Report Card count: {len(student1.reportCards)}")
 
 print("\nRelated object(s):")
 for card in student1.reportCards:
