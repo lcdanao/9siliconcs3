@@ -27,16 +27,6 @@ class Student:
         else:
             print("Invalid grade level. Please enter a grade between 7 and 12.")
 
-class Student:
-    def __init__(self, name, idNumber, gradeLevel, enrolled):
-        # Public attributes
-        self.name = name
-        self.gradeLevel = gradeLevel
-        
-        # Private attributes
-        self.__idNumber = idNumber
-        self.__enrolled = enrolled
-
 # TEST RUN
 if __name__ == "__main__":
     # Create the two student objects from your diagram

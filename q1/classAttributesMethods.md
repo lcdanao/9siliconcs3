@@ -18,7 +18,7 @@ No major changes were needed from my original design.
 ## Test Run
 ![Test Run](images/TestRun.png)
 ## Object Diagram
-![Object Diagram](<objectDiagram.png>)
+![Object Diagram](images/objectDiagram.png)
 ## Analysis
 ### Why did you make your chosen attribute private?
 I made the attributes idNumber and enrolled private because they hold sensitive identification and registration records. If outside parts of the program could change them directly, an ID number could accidentally be duplicated or tampered with, corrupting the student database. Similarly, someone could flip the enrollment status without checking if the student actually paid their tuition or submitted papers. Restricting direct access ensures these values can only be updated through secure, pre-approved rules.
