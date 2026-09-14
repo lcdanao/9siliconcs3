@@ -10,8 +10,7 @@
 ### Computational Thinking Skills
 [View my Computational Thinking Exercise](q1/ctskillsSiliconDanao.md)
 ### Chinese Zodiac 
-[View my Chinese Zodiac Activity](q1/zodiacSiliconDanao.md)<br>
-[View my Chinese Zodiac Code](q1/zodiacSiliconDanao.py)
+[View my Chinese Zodiac Activity](q1/zodiacSiliconDanao.md)
 ### Applying the Four Pillars of OOP
 [View my ILA 3-1: Applying the Four Pillars of OOP](q1/ila_oop.md)
 ### Understanding Classes and Objects
