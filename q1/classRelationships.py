@@ -16,12 +16,12 @@ class Student:
         self.__idNumber = idNumber # - idNumber (Private)
         self.__enrolled = enrolled # - enrolled (Private)
         self.reportCards = [] # + reportCards (Public)
-
+    # METHODS
     def displayInfo(self):
-            print(f"Name: {self.name}")
-            print(f"Grade Level: {self.gradeLevel}")
-            print(f"ID Number: {self.__idNumber}")
-            print(f"Enrollment Status: {'Enrolled' if self.__enrolled else 'Not Enrolled'}")
+        print(f"Name: {self.name}")
+        print(f"Grade Level: {self.gradeLevel}")
+        print(f"ID Number: {self.__idNumber}")
+        print(f"Enrollment Status: {'Enrolled' if self.__enrolled else 'Not Enrolled'}")
     
     def enrollStudent(self):
         if not self.__enrolled:
