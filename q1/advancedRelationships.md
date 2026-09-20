@@ -7,21 +7,17 @@
 ## Existing System Description:
 Class 1: Student
 Class 2: Report Card
-
-Problems/Limitations:
-My current design includes a repeated attribute, specifically the gradeLevel variable, which can create inconsistent data. If a student's grade is updated using the changeGradeLevel method, their existing report cards will still hold old data. 
+Problems/Limitations: My current design includes a repeated attribute, specifically the gradeLevel variable, which can create inconsistent data. If a student's grade is updated using the changeGradeLevel method, their existing report cards will still hold old data. 
 
 ## Inheritance Relationship
-
 Parent: Student
 Child: Olympian
 Explanation: An Olympian is a specific type of student who participates in academic olympiads. They inherit all general student attributes like a name, ID number, grade level, and enrollment status, but also possess unique attributes such as a list of specialized subjects and number of medals won.
 
 ## Inheritance UML
-![Inheritance]
+[Inheritance](images/inheritanceDiagram.png)
 
-## Composition/Aggregation
-Relationship: Aggregation
+## Aggregation
 Class containing another object: Olympian
 Contained object: Medal
 Explanation: An Olympian can earn multiple medals. If an Olympian leaves or is deleted from the system, the Medal objects still exist independently in the school's collection to track the school's overall wins.
