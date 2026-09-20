@@ -16,4 +16,5 @@
 ### Understanding Classes and Objects
 [View my Part I - Classes and Objects](q1/classObjectUML.md)<br>
 [View My Part II - Class Attributes and Methods](q1/classAttributesMethods.md)<br>
-[View my Part III - Class Relationships](q1/classRelationships.md)
+[View my Part III - Class Relationships](q1/classRelationships.md)<br>
+[View my Part IV - Advanced Class Relationships](q1/advancedRelationships.md)
