@@ -84,12 +84,12 @@ class Olympian(Student):
             medal.displayMedal()
 
 if __name__ == "__main__":
-    print("--- 1. PRE-EXISTING OBJECT CREATION (AGGREGATION BASE) ---")
-    olympiad_gold = Medal("Gold", 2026, "Mathematics")
+    print("--- 1. PRE-EXISTING OBJECT CREATION ---")
+    olympiad_gold = Medal("Gold", 2026, "English")
     print("Medal created in system database registry.")
 
     print("\n--- 2. OBJECT INSTANTIATION WITH INHERITANCE ---")
-    olympian1 = Olympian("Lee Wonhee", 3252024, 12, True, "Calculus & Physics")
+    olympian1 = Olympian("Lee Wonhee", 3252024, 12, True, "English & Biology")
     card1 = ReportCard("1st", 94.0)
     card2 = ReportCard("2nd", 96.2)
     

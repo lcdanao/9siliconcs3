@@ -27,7 +27,7 @@ Explanation: An Olympian can earn multiple medals. If an Olympian leaves or is d
 ## Python Implementation
 [Source Code](advancedRelationships.py)
 ## Test Run
-![Test](images/advancedTestRun.png)
+[Test](images/advancedTestRun.png)
 ## Object Diagram
 ![Objects](images/advancedObjectDiagram.png)
 
