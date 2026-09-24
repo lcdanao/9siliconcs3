@@ -29,7 +29,7 @@ Explanation: An Olympian can earn multiple medals. If an Olympian leaves or is d
 ## Test Run
 [Test](images/advancedTestRun.png)
 ## Object Diagram
-[Object](advancedObjectDiagram.png)
+[Object](images/advancedObjectDiagram.png)
 
 ## Reflection
 ### Why did you choose your inheritance relationship? Explain why your child class is a type of your parent class.
