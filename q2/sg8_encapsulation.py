@@ -10,7 +10,7 @@ class BankAccount:
         if balance >= 0:
             self.__balance = balance
         else:
-            print("The balance must not be a negative number. Please enter a valid balance.")
+            print("The balance must not be a negative number.")
     def get_account_number(self):
         return self.__accountNumber
     def get_balance(self):
@@ -19,17 +19,17 @@ class BankAccount:
 
 # TEST RUN
 if __name__ == "__main__":
-    # Create the two bank account objects
+    # Create the  bank account object
     account1 = BankAccount(accountNumber=12345, balance=1000)
 
     print("Account 1")
     print(f"Account Number: {account1.get_account_number()}")
-    print(f"Balance: ${account1.get_balance()}")
+    print(f"Balance: {account1.get_balance():.2f}")
 
 
     print("\nUpdate balance to -100")
 
-    account1.set_balance(-100)  # This will trigger the validation message
+    account1.set_balance(-100)  # Trigger the validation message
     print(f"Account Number: {account1.get_account_number()}")
-    print(f"Balance: ${account1.get_balance()}")
+    print(f"Balance: {account1.get_balance():.2f}")
 
