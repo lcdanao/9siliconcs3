@@ -18,8 +18,9 @@
 [View My Part II - Class Attributes and Methods](q1/classAttributesMethods.md)<br>
 [View my Part III - Class Relationships](q1/classRelationships.md)<br>
 [View my Part IV - Advanced Class Relationships](q1/advancedRelationships.md)
+
 ---
-# Quarter 1
+# Quarter 2
 ## Activities
 ### Encapsulation
 [View my SG 8 - Encapsulation](q2/sg8_encapsulation.py)
