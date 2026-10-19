@@ -5,14 +5,14 @@ class Publication: # Create the parent class Publication
         self.__author = author # - author (Private)
     # METHODS
     # Getter Methods
-    def get_title(self): # Getter method for title
+    def get_title(self): 
         return self.__title 
-    def get_author(self): # Getter method for author
+    def get_author(self): 
     # Setter Methods
         return self.__author
-    def set_title(self, title): # Setter method for title
+    def set_title(self, title): 
         self.__title = title
-    def set_author(self, author): # Setter method for author
+    def set_author(self, author): 
         self.__author = author 
     # Display Information 
     def display_info(self): # Displays the information of the publication
@@ -25,9 +25,9 @@ class Book(Publication): # Create the child class Book (that inherits from Publi
         super().__init__(title, author) # Calls the constructor of the parent class Publication to initialize title and author
         self.__number_of_pages = number_of_pages # - number_of_pages (Private)
     # METHODS
-    def get_number_of_pages(self): # Getter method for number of pages
+    def get_number_of_pages(self): # Getter method for number_of_pages
         return self.__number_of_pages
-    def set_number_of_pages(self, number_of_pages): # Setter method for number of pages
+    def set_number_of_pages(self, number_of_pages): # Setter method for number_of_pages
         if number_of_pages > 0: # Ensures that the number of pages is positive
             self.__number_of_pages = number_of_pages 
         else:
@@ -39,9 +39,9 @@ class Magazine(Publication): # Create the child class Magazine (that inherits fr
             super().__init__(title, author) # Calls the constructor of the parent class Publication to initialize title and author
             self.__issue_number = issue_number # - issue_number (Private)
     # METHODS
-    def get_issue_number(self): # Getter method for issue number
+    def get_issue_number(self): # Getter method for issue_number
         return self.__issue_number
-    def set_issue_number(self, issue_number): # Setter method for issue number
+    def set_issue_number(self, issue_number): # Setter method for issue_number
         if issue_number > 0: # Ensures that the issue number is positive
             self.__issue_number = issue_number
         else:
