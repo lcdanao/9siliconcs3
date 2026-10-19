@@ -13,8 +13,10 @@ class BankAccount:
         else:
             print("The balance must not be a negative number.")  # Displays an error message
     # Getter Methods
+    @property
     def get_account_number(self):
         return self.__accountNumber
+    @property
     def get_balance(self):
         return self.__balance
 
@@ -24,12 +26,12 @@ if __name__ == "__main__":
     account1 = BankAccount(accountNumber=12345, balance=1000) # Creates the  bank account object
 
     print("Account 1")
-    print(f"Account Number: {account1.get_account_number()}") # Displays the account number
-    print(f"Balance: {account1.get_balance():.2f}") # Displays the balance formatted to two decimal places
+    print(f"Account Number: {account1.get_account_number}") # Displays the account number
+    print(f"Balance: {account1.get_balance:.2f}") # Displays the balance formatted to two decimal places
 
 
     print("\nUpdate balance to -100")
 
     account1.set_balance(-100)  # Triggers the validation message
-    print(f"Account Number: {account1.get_account_number()}") # Displays the account number
-    print(f"Balance: {account1.get_balance():.2f}") # Displays the balance formatted to two decimal places
+    print(f"Account Number: {account1.get_account_number}") # Displays the account number
+    print(f"Balance: {account1.get_balance:.2f}") # Displays the balance formatted to two decimal places
