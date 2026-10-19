@@ -24,4 +24,5 @@
 ## Activities
 ### Encapsulation
 [View my SG 8 - Encapsulation](q2/sg8_encapsulation.py)
+### Inheritance
 [View my SG 9 - Inheritance](q2/sg9_inheritance.py)
