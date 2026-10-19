@@ -5,11 +5,13 @@ class Publication: # Create the parent class Publication
         self.__author = author # - author (Private)
     # METHODS
     # Getter Methods
+    @property
     def get_title(self): 
         return self.__title 
+    @property
     def get_author(self): 
-    # Setter Methods
         return self.__author
+    # Setter Methods
     def set_title(self, title): 
         self.__title = title
     def set_author(self, author): 
@@ -25,6 +27,7 @@ class Book(Publication): # Create the child class Book (that inherits from Publi
         super().__init__(title, author) # Calls the constructor of the parent class Publication to initialize title and author
         self.__number_of_pages = number_of_pages # - number_of_pages (Private)
     # METHODS
+    @property
     def get_number_of_pages(self): # Getter method for number_of_pages
         return self.__number_of_pages
     def set_number_of_pages(self, number_of_pages): # Setter method for number_of_pages
@@ -39,6 +42,7 @@ class Magazine(Publication): # Create the child class Magazine (that inherits fr
             super().__init__(title, author) # Calls the constructor of the parent class Publication to initialize title and author
             self.__issue_number = issue_number # - issue_number (Private)
     # METHODS
+    @property
     def get_issue_number(self): # Getter method for issue_number
         return self.__issue_number
     def set_issue_number(self, issue_number): # Setter method for issue_number
@@ -67,12 +71,12 @@ pub1.display_info()
 print("\nBook Information:")
 book1.set_number_of_pages(-377) # Triggers the validation message
 book1.display_info()
-print(f"Number of pages: {book1.get_number_of_pages()}")
+print(f"Number of pages: {book1.get_number_of_pages}")
 
 # Magazine Information
 print("\nMagazine Information:")
 mag1.display_info()
-print(f"Issue number: {mag1.get_issue_number()}")
+print(f"Issue number: {mag1.get_issue_number}")
 
 # Printing the Information (Set 2)
 print()
@@ -84,10 +88,10 @@ pub2.display_info()
 # Book Information
 print("\nBook Information:")
 book2.display_info()
-print(f"Number of pages: {book2.get_number_of_pages()}")
+print(f"Number of pages: {book2.get_number_of_pages}")
 
 # Magazine Information
 print("\nMagazine Information:")
 mag2.set_issue_number(-404) # Triggers the validation message
 mag2.display_info()
-print(f"Issue number: {mag2.get_issue_number()}")
+print(f"Issue number: {mag2.get_issue_number}")
