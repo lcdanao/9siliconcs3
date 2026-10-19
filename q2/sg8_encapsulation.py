@@ -11,7 +11,7 @@ class BankAccount:
         if balance >= 0: # Ensures that the balance is not negative
             self.__balance = balance 
         else:
-            print("The balance must not be a negative number.")  # Display an error message
+            print("The balance must not be a negative number.")  # Displays an error message
     # Getter Methods
     def get_account_number(self):
         return self.__accountNumber
@@ -30,6 +30,6 @@ if __name__ == "__main__":
 
     print("\nUpdate balance to -100")
 
-    account1.set_balance(-100)  # Trigger the validation message
+    account1.set_balance(-100)  # Triggers the validation message
     print(f"Account Number: {account1.get_account_number()}") # Displays the account number
     print(f"Balance: {account1.get_balance():.2f}") # Displays the balance formatted to two decimal places
