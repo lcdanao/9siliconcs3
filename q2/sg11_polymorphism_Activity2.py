@@ -13,7 +13,7 @@ class Drone:
 def start_trip(vehicle):
     vehicle.move()
 
-# Create one object of each class
+# Creating Objects
 car = Car()
 boat = Boat()
 drone = Drone()

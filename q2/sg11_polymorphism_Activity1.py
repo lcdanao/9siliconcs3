@@ -1,8 +1,8 @@
-class Patient:
-    def __init__(self, name, bill_amount):
+class Patient: # Create the parent class Patient
+    def __init__(self, name, bill_amount): # Initializes the attributes of the Patient class
         # ATTRIBUTES
-        self.__name = name
-        self.__bill_amount = bill_amount
+        self.__name = name # - name (Private)
+        self.__bill_amount = bill_amount # - bill_amount (Private)
     # METHODS
     def get_name(self):
         return self.__name
@@ -20,8 +20,8 @@ class Patient:
     def display_patient_type(self):
         return "Regular Patient"
 
-class Senior(Patient):
-    def __init__(self, name, bill_amount):
+class Senior(Patient): # Create the child class Senior (that inherits from Patient)
+    def __init__(self, name, bill_amount): # Initializes the attributes of the Senior class
         # ATTRIBUTES
         super().__init__(name, bill_amount) # Calls the constructor of the parent class Patient to initialize name and bill_amount
     # METHODS
@@ -32,8 +32,8 @@ class Senior(Patient):
     def display_patient_type(self):
         return "Senior Citizen"
 
-class PhilHealth(Patient):
-    def __init__(self, name, bill_amount):
+class PhilHealth(Patient): # Create the child class PhilHealth (that inherits from Patient)
+    def __init__(self, name, bill_amount): # Initializes the attributes of the PhilHealth class
         # ATTRIBUTES
         super().__init__(name, bill_amount) # Calls the constructor of the parent class Patient to initialize name and bill_amount
     # METHODS
@@ -46,7 +46,6 @@ class PhilHealth(Patient):
 
 
 # Creating Objects
-
 patient1 = Patient("Juan Dela Cruz", 15000)
 senior1 = Senior("Maria Santos", 15000)
 philhealth1 = PhilHealth("Pedro Reyes", 15000)
