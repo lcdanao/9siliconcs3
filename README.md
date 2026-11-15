@@ -29,4 +29,5 @@
 ### Method Overriding
 [View my SG 10 - Method Overriding](q2/sg10_methodOverriding.py)
 ### Polymorphism
-[View my SG 11 - Polymorphism](q2/sg11_polymorphism.py)
+[View my Activity 1 for SG 11 - Polymorphism](q2/sg11_polymorphism_Activity1.py)
+[View my Activity 2 for SG 11 - Polymorphism](q2/sg11_polymorphism_Activity2.py)
