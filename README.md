@@ -28,3 +28,5 @@
 [View my SG 9 - Inheritance](q2/sg9_inheritance.py)
 ### Method Overriding
 [View my SG 10 - Method Overriding](q2/sg10_methodOverriding.py)
+### Polymorphism
+[View my SG 11 - Polymorphism](q2/sg11_polymorphism.py)
